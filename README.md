@@ -27,56 +27,6 @@ This tool is particularly useful for scenarios that require generating on-chain 
 * **Language:** [TypeScript](https://www.typescriptlang.org/)
 * **Deployment:** [Vercel](https://vercel.com/)
 
----
-
-## 🛠️ Getting Started
-
-Follow these steps to run this project on your local machine.
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
-```
-
-### 2. Install Dependencies
-
-In the project directory, run the following command in your terminal:
-```bash
-npm install
-```
-
-### 3. Configuration
-
-To make the application work, you need to specify the list of contracts to interact with.
-
-* Open the `pages/index.tsx` file in the project folder.
-* Find the `sabitKontratListesi` (which means "fixed contract list") array.
-* Replace the placeholder addresses inside the array with the actual addresses of the contracts you have deployed.
-
-```javascript
-// pages/index.tsx
-
-const sabitKontratListesi: Address[] = [
-  '0xYourContractAddress1........................',
-  '0xYourContractAddress2........................',
-  // ...and so on for all your addresses
-];
-```
-
-*Note: The application is pre-configured for the Somnia Shannon Testnet. You can edit the `pages/_app.tsx` file to add or change networks.*
-
-### 4. Run the Development Server
-
-Once the setup is complete, run the following command to start the development server:
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
-
----
 
 ## 📖 Usage
 
